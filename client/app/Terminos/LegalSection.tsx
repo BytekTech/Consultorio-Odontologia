@@ -23,7 +23,7 @@ export const LegalSection = ({ data }: Props) => {
       {data.description && <p className="description">{data.description}</p>}
       
       {data.subsections?.map((sub) => (
-        <div key={sub.id} className="section">
+        <div key={sub.id} className="subsection">
           <h3>{sub.subtitle}</h3>
           <ul>
             {sub.items?.map((item, index) => (

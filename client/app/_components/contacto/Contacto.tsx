@@ -14,7 +14,7 @@ export default function Contacto() {
   },[])
 
   return (
-    <div className='contacto'>
+    <div className='contacto' id='contacto'>
       <h1>CONTACTO</h1>
       <div className='contactoDivision'>
         <ContactoMap/>

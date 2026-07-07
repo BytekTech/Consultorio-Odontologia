@@ -1,6 +1,6 @@
 [
   { "id": 0, "ref": "dentista", "text": "DENTISTA" },
-  { "id": 1, "ref": "nosotros", "off": 200, "text": "NOSOTROS" },
-  { "id": 2, "ref": "tratamientos", "off": 50, "text": "TRATAMIENTOS" },
-  { "id": 3, "ref": "contacto", "off": 25, "text": "CONTACTO" }
+  { "id": 1, "ref": "nosotros", "text": "NOSOTROS" },
+  { "id": 2, "ref": "tratamientos", "text": "TRATAMIENTOS" },
+  { "id": 3, "ref": "contacto", "text": "CONTACTO" }
 ]

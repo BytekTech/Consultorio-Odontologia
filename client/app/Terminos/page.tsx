@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useState } from 'react'
 import { LegalSection, LegalDataProps } from './LegalSection';
+import Link from 'next/link';
 
 const LegalPage: React.FC = () => {
   
@@ -16,6 +17,9 @@ const LegalPage: React.FC = () => {
 
   return (
     <div className="tyc">
+      <Link className='volver' href={'/'}>
+        Volver
+      </Link>
         <h1>Términos y Condiciones y Política de Privacidad</h1>
         <p className="updated">
           <strong>Última actualización:</strong> 20 de Febrero de 2026
@@ -24,7 +28,7 @@ const LegalPage: React.FC = () => {
           <LegalSection key={section.id} data={section} />
         ))}
     </div>
-  );
-};
+  )
+}
 
 export default LegalPage;

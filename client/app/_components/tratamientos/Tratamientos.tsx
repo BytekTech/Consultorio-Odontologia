@@ -13,7 +13,7 @@ export default function Tratamientos() {
       .then(res => setItems(res))
   }, [])
   return (
-    <div className='tratamientos'>
+    <div className='tratamientos' id='tratamientos'>
       <h1>TRATAMIENTOS</h1>
       <TratamientoItem data={items}/>
       <Image
