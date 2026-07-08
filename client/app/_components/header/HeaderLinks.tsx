@@ -45,7 +45,10 @@ export default function HeaderLinks({ links }: HeaderProps) {
         <Link
           key={link.id}
           to={link.ref}
-          spy={true}
+          // El estado activo lo maneja useActiveSection (un solo punto azul).
+          // react-scroll con spy agregaba su propia clase 'active' y quedaban
+          // dos puntos azules a la vez al hacer scroll.
+          spy={false}
           smooth={true}
           duration={500}
           offset={0}
